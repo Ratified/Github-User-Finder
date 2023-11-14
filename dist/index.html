@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <title>Github User Finder</title>
+</head>
+<body class="bg-gray-900 min-h-screen flex flex-col">
+    <h1 class="text-center text-3xl text-white mt-10 font-bold">DevFinder</h1>
+
+    <form class="border border-white-900 rounded-xl bg-transparent w-full max-w-2xl mx-auto flex justify-center gap-3 py-2 mt-10">
+        <input type="text" placeholder="Search Github Username" class="bg-transparent text-white" id="usernameInput">
+        <button type="submit" id="submitBtn" class="bg-blue-700 text-white py-1 px-2 rounded-lg">Search</button>
+    </form>
+
+    <div class="border border-white-900 rounded-xl w-full mx-auto mt-5 max-w-2xl text-white p-3 ">
+        <div class="flex gap-5 mx-auto justify-center md:gap-10 items-center">
+            <img src="https://avatars.githubusercontent.com/u/87443655?v=4" alt="Github Profile" class="w-20 rounded-full" id="img">
+
+            <div class="md:flex md:gap-10 items-start">
+                <div>
+                    <p class="text-xl" id="login">Ratified</p>
+                    <p class="text-blue-700 text-lg" id="name">@RatifiedGeorge</p>
+                </div>
+    
+                <p class="text-xl" id="date_joined">Joined 25 Jan 2011</p>
+            </div>
+        </div>
+
+        <div class="grid justify-center mt-10">
+            <p class="text-xl italic" id="bio">I created this site with TailwindCSS</p>
+        </div>
+
+        <div class="bg-blue-700 flex justify-between px-2 py-1 rounded-xl mt-10">
+            <div>
+                <p class="text-xl">Repos</p>
+                <p class="text-center text-lg" id="public_repos">8</p>
+            </div>
+            <div>
+                <p class="text-xl">Followers</p>
+                <p class="text-center text-lg" id="followers">3938</p>
+            </div>
+            <div>
+                <p class="text-xl">Following</p>
+                <p class="text-center text-lg" id="following">18</p>
+            </div>
+        </div>
+
+        <div class="mt-10 w-full flex flex-col justify-center sm:flex-row gap-10">
+            <div>
+                <p id="location">Nairobi</p>
+                <p id="link">https://github.com/Ratified</p>
+            </div>
+
+            <div>
+                <p id="twitter_username">@RatifiedGeorge</p>
+                <p id="company">Not Availale</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javascript/main.js"></script>
+</body>
+</html>
