@@ -14,3 +14,4 @@ const profileLink = document.getElementById('link');
 const twitterProfile = document.getElementById('twitter_username');
 const profileCompany = document.getElementById('company');
 console.log(userInput, submitBtn, img, profileUsername, profileName, dateJoined, profileBio, profileRepos, profileFollowers, profileFollowing, profileLocation, profileLink, twitterProfile, profileCompany);
+
